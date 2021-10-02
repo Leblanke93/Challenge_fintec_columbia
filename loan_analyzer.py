@@ -207,3 +207,7 @@ with open( output_path,'w') as f:
     writer.writerow(header)
     for row in inexpensive_loan:
         writer.writerow(row.values())
+   
+my_list_loan = inexpensive_loan
+my_list_loan = pd.DataFrame(inexpensive_loan)
+my_list_loan.head()
