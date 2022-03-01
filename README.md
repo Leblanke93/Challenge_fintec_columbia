@@ -17,3 +17,10 @@ Perform Financial Calculations
 Conditionally Filter Lists of Loans
 
 
+# Python Libraries needed
+
+import csv
+
+from os import stat
+
+from pathlib import Path
